@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32ACAEEA28C9B86A00C715FB /* FirebaseLoginAppBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAEE928C9B86A00C715FB /* FirebaseLoginAppBootCampApp.swift */; };
+		32ACAEEC28C9B86A00C715FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAEEB28C9B86A00C715FB /* ContentView.swift */; };
+		32ACAEEE28C9B86F00C715FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32ACAEED28C9B86F00C715FB /* Assets.xcassets */; };
+		32ACAEF128C9B86F00C715FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32ACAEF028C9B86F00C715FB /* Preview Assets.xcassets */; };
+		32ACAEFB28C9B86F00C715FB /* LoginAppBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAEFA28C9B86F00C715FB /* LoginAppBootCampTests.swift */; };
+		32ACAF0528C9B86F00C715FB /* LoginAppBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAF0428C9B86F00C715FB /* LoginAppBootCampUITests.swift */; };
+		32ACAF0728C9B86F00C715FB /* LoginAppBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAF0628C9B86F00C715FB /* LoginAppBootCampUITestsLaunchTests.swift */; };
+		32ACAF1628CAD9FB00C715FB /* HederView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAF1528CAD9FB00C715FB /* HederView.swift */; };
+		32ACAF5628CD7B7A00C715FB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACAF5528CD7B7A00C715FB /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32ACAEF728C9B86F00C715FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32ACAEDE28C9B86A00C715FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32ACAEE528C9B86A00C715FB;
+			remoteInfo = LoginAppBootCamp;
+		};
+		32ACAF0128C9B86F00C715FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32ACAEDE28C9B86A00C715FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32ACAEE528C9B86A00C715FB;
+			remoteInfo = LoginAppBootCamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32ACAEE628C9B86A00C715FB /* FirebaseLoginAppBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLoginAppBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ACAEE928C9B86A00C715FB /* FirebaseLoginAppBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLoginAppBootCampApp.swift; sourceTree = "<group>"; };
+		32ACAEEB28C9B86A00C715FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32ACAEED28C9B86F00C715FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32ACAEF028C9B86F00C715FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32ACAEF628C9B86F00C715FB /* LoginAppBootCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppBootCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ACAEFA28C9B86F00C715FB /* LoginAppBootCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppBootCampTests.swift; sourceTree = "<group>"; };
+		32ACAF0028C9B86F00C715FB /* LoginAppBootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppBootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ACAF0428C9B86F00C715FB /* LoginAppBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppBootCampUITests.swift; sourceTree = "<group>"; };
+		32ACAF0628C9B86F00C715FB /* LoginAppBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32ACAF1528CAD9FB00C715FB /* HederView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HederView.swift; sourceTree = "<group>"; };
+		32ACAF5528CD7B7A00C715FB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32ACAEE328C9B86A00C715FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEF328C9B86F00C715FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEFD28C9B86F00C715FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ACAEDD28C9B86A00C715FB = {
+			isa = PBXGroup;
+			children = (
+				32ACAEE828C9B86A00C715FB /* LoginAppBootCamp */,
+				32ACAEF928C9B86F00C715FB /* LoginAppBootCampTests */,
+				32ACAF0328C9B86F00C715FB /* LoginAppBootCampUITests */,
+				32ACAEE728C9B86A00C715FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32ACAEE728C9B86A00C715FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAEE628C9B86A00C715FB /* FirebaseLoginAppBootCamp.app */,
+				32ACAEF628C9B86F00C715FB /* LoginAppBootCampTests.xctest */,
+				32ACAF0028C9B86F00C715FB /* LoginAppBootCampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32ACAEE828C9B86A00C715FB /* LoginAppBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAF1728CC2AF500C715FB /* ViewModifire */,
+				32ACAF5528CD7B7A00C715FB /* LoginView.swift */,
+				32ACAEE928C9B86A00C715FB /* FirebaseLoginAppBootCampApp.swift */,
+				32ACAEEB28C9B86A00C715FB /* ContentView.swift */,
+				32ACAEED28C9B86F00C715FB /* Assets.xcassets */,
+				32ACAEEF28C9B86F00C715FB /* Preview Content */,
+			);
+			path = LoginAppBootCamp;
+			sourceTree = "<group>";
+		};
+		32ACAEEF28C9B86F00C715FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAEF028C9B86F00C715FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32ACAEF928C9B86F00C715FB /* LoginAppBootCampTests */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAEFA28C9B86F00C715FB /* LoginAppBootCampTests.swift */,
+			);
+			path = LoginAppBootCampTests;
+			sourceTree = "<group>";
+		};
+		32ACAF0328C9B86F00C715FB /* LoginAppBootCampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAF0428C9B86F00C715FB /* LoginAppBootCampUITests.swift */,
+				32ACAF0628C9B86F00C715FB /* LoginAppBootCampUITestsLaunchTests.swift */,
+			);
+			path = LoginAppBootCampUITests;
+			sourceTree = "<group>";
+		};
+		32ACAF1728CC2AF500C715FB /* ViewModifire */ = {
+			isa = PBXGroup;
+			children = (
+				32ACAF1528CAD9FB00C715FB /* HederView.swift */,
+			);
+			path = ViewModifire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32ACAEE528C9B86A00C715FB /* LoginAppBootCamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ACAF0A28C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCamp" */;
+			buildPhases = (
+				32ACAEE228C9B86A00C715FB /* Sources */,
+				32ACAEE328C9B86A00C715FB /* Frameworks */,
+				32ACAEE428C9B86A00C715FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginAppBootCamp;
+			productName = LoginAppBootCamp;
+			productReference = 32ACAEE628C9B86A00C715FB /* FirebaseLoginAppBootCamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32ACAEF528C9B86F00C715FB /* LoginAppBootCampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ACAF0D28C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCampTests" */;
+			buildPhases = (
+				32ACAEF228C9B86F00C715FB /* Sources */,
+				32ACAEF328C9B86F00C715FB /* Frameworks */,
+				32ACAEF428C9B86F00C715FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32ACAEF828C9B86F00C715FB /* PBXTargetDependency */,
+			);
+			name = LoginAppBootCampTests;
+			productName = LoginAppBootCampTests;
+			productReference = 32ACAEF628C9B86F00C715FB /* LoginAppBootCampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32ACAEFF28C9B86F00C715FB /* LoginAppBootCampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ACAF1028C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCampUITests" */;
+			buildPhases = (
+				32ACAEFC28C9B86F00C715FB /* Sources */,
+				32ACAEFD28C9B86F00C715FB /* Frameworks */,
+				32ACAEFE28C9B86F00C715FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32ACAF0228C9B86F00C715FB /* PBXTargetDependency */,
+			);
+			name = LoginAppBootCampUITests;
+			productName = LoginAppBootCampUITests;
+			productReference = 32ACAF0028C9B86F00C715FB /* LoginAppBootCampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32ACAEDE28C9B86A00C715FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					32ACAEE528C9B86A00C715FB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					32ACAEF528C9B86F00C715FB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 32ACAEE528C9B86A00C715FB;
+					};
+					32ACAEFF28C9B86F00C715FB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 32ACAEE528C9B86A00C715FB;
+					};
+				};
+			};
+			buildConfigurationList = 32ACAEE128C9B86A00C715FB /* Build configuration list for PBXProject "LoginAppBootCamp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32ACAEDD28C9B86A00C715FB;
+			productRefGroup = 32ACAEE728C9B86A00C715FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32ACAEE528C9B86A00C715FB /* LoginAppBootCamp */,
+				32ACAEF528C9B86F00C715FB /* LoginAppBootCampTests */,
+				32ACAEFF28C9B86F00C715FB /* LoginAppBootCampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32ACAEE428C9B86A00C715FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACAEF128C9B86F00C715FB /* Preview Assets.xcassets in Resources */,
+				32ACAEEE28C9B86F00C715FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEF428C9B86F00C715FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEFE28C9B86F00C715FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32ACAEE228C9B86A00C715FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACAEEC28C9B86A00C715FB /* ContentView.swift in Sources */,
+				32ACAEEA28C9B86A00C715FB /* FirebaseLoginAppBootCampApp.swift in Sources */,
+				32ACAF5628CD7B7A00C715FB /* LoginView.swift in Sources */,
+				32ACAF1628CAD9FB00C715FB /* HederView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEF228C9B86F00C715FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACAEFB28C9B86F00C715FB /* LoginAppBootCampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32ACAEFC28C9B86F00C715FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACAF0528C9B86F00C715FB /* LoginAppBootCampUITests.swift in Sources */,
+				32ACAF0728C9B86F00C715FB /* LoginAppBootCampUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32ACAEF828C9B86F00C715FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32ACAEE528C9B86A00C715FB /* LoginAppBootCamp */;
+			targetProxy = 32ACAEF728C9B86F00C715FB /* PBXContainerItemProxy */;
+		};
+		32ACAF0228C9B86F00C715FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32ACAEE528C9B86A00C715FB /* LoginAppBootCamp */;
+			targetProxy = 32ACAF0128C9B86F00C715FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32ACAF0828C9B86F00C715FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32ACAF0928C9B86F00C715FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32ACAF0B28C9B86F00C715FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginAppBootCamp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCamp;
+				PRODUCT_NAME = FirebaseLoginAppBootCamp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32ACAF0C28C9B86F00C715FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginAppBootCamp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCamp;
+				PRODUCT_NAME = FirebaseLoginAppBootCamp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32ACAF0E28C9B86F00C715FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAppBootCamp.app/LoginAppBootCamp";
+			};
+			name = Debug;
+		};
+		32ACAF0F28C9B86F00C715FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAppBootCamp.app/LoginAppBootCamp";
+			};
+			name = Release;
+		};
+		32ACAF1128C9B86F00C715FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginAppBootCamp;
+			};
+			name = Debug;
+		};
+		32ACAF1228C9B86F00C715FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5PYCHYC96Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.com.s.yoshida1214.LoginAppBootCampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginAppBootCamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32ACAEE128C9B86A00C715FB /* Build configuration list for PBXProject "LoginAppBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACAF0828C9B86F00C715FB /* Debug */,
+				32ACAF0928C9B86F00C715FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ACAF0A28C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACAF0B28C9B86F00C715FB /* Debug */,
+				32ACAF0C28C9B86F00C715FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ACAF0D28C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACAF0E28C9B86F00C715FB /* Debug */,
+				32ACAF0F28C9B86F00C715FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ACAF1028C9B86F00C715FB /* Build configuration list for PBXNativeTarget "LoginAppBootCampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACAF1128C9B86F00C715FB /* Debug */,
+				32ACAF1228C9B86F00C715FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32ACAEDE28C9B86A00C715FB /* Project object */;
+}
